@@ -1,0 +1,58 @@
+.instruments {
+  font-family: 'Roboto', sans-serif; }
+  .instruments .header-widgets {
+    border-bottom: 2px solid #ccc;
+    border-color: #e6e6e6;
+    text-align: center;
+    padding: 2rem 0 0 1rem; }
+    .instruments .header-widgets .kit {
+      margin-right: 10px; }
+    .instruments .header-widgets .percent h2 {
+      color: #0064b7; }
+    .instruments .header-widgets p {
+      text-transform: uppercase;
+      color: #7e7e7e;
+      font-weight: bold; }
+  .instruments .widget-footer {
+    background-color: #f5f5f5;
+    padding: 16px 0;
+    border-top: 2px solid #ccc;
+    border-color: #e6e6e6; }
+    .instruments .widget-footer .footer-right {
+      border-left: 2px solid #ccc;
+      border-color: #e6e6e6; }
+    .instruments .widget-footer span {
+      color: #7e7e7e; }
+    .instruments .widget-footer p {
+      font-size: 20px; }
+    .instruments .widget-footer .table tr th {
+      border: none;
+      padding-top: 0; }
+    .instruments .widget-footer .table tr td {
+      border: none;
+      padding: 12px 8px 8px 8px;
+      color: #7e7e7e; }
+      .instruments .widget-footer .table tr td:nth-child(3) {
+        padding: 0;
+        width: 170px; }
+  .instruments .stock-table {
+    padding: 16px 0; }
+    .instruments .stock-table .col-md-4 {
+      padding-left: 0; }
+      .instruments .stock-table .col-md-4 table tr th {
+        color: #7e7e7e;
+        border-color: #f2f2f2; }
+        .instruments .stock-table .col-md-4 table tr th:nth-child(3) {
+          text-align: right; }
+        .instruments .stock-table .col-md-4 table tr th:nth-child(2) {
+          text-align: center; }
+      .instruments .stock-table .col-md-4 table tr td {
+        border-color: #f2f2f2; }
+        .instruments .stock-table .col-md-4 table tr td:nth-child(3) {
+          text-align: right; }
+        .instruments .stock-table .col-md-4 table tr td:nth-child(2) {
+          text-align: center; }
+    .instruments .stock-table .col-md-8 {
+      padding-right: 0; }
+      .instruments .stock-table .col-md-8 .ui-select {
+        margin-top: 10px; }

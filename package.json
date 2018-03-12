@@ -1,0 +1,24 @@
+{
+  "name": "instruments",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "4.0.0-beta.2",
+    "highcharts": "^6.0.4",
+    "node-sass-chokidar": "^0.0.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-highcharts": "^15.0.0",
+    "react-icons-kit": "^1.0.7",
+    "react-scripts": "1.0.17",
+    "react-select": "^1.1.0"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start": "npm run build-css && react-scripts start",
+    "build": "npm run build-css && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
